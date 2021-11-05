@@ -25,7 +25,8 @@ class FileManagement:
         dict_file_contents = {}
         for file in files:
             try:
-                source = open(file, "r")
+                source = open(file, "r").read()
+
                 dict_file_contents[file] = source
             except Exception:
                 raise SystemExit("The file doesn't exist or it isn't a Dockerfile...")

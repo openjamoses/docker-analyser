@@ -1,15 +1,10 @@
 #!/bin/bash
 
-declare -a repos=(
-  "aws/deep-learning-containers"
-  "mesosphere/dcos-commons"
-
-)
-
 source env/bin/activate
 REPOS_DATA_DIR=./data/repos/
-for repo in "${repos[@]}"
+while read line
 do
+  repo=$line
   repo_dir=$(tr '/' '#' <<< "$repo")
   # If the project directory doesn't exist, make the directory and clone the project
   if [ ! -d "${REPOS_DATA_DIR}${repo_dir}" ]
@@ -36,7 +31,7 @@ do
       git checkout $tag
       cd ../../../  # Back to root level
 
-      python ./image_analyzer.py --dir ${REPOS_DATA_DIR}${repo_dir} --repo $repo --repoversion $tag
+      python3 ./image_analyzer.py --dir ${REPOS_DATA_DIR}${repo_dir} --repo $repo --repoversion $tag
 
       #python ./data_transform_scripts/write_repo_release_to_csv.py -r $repo -v $tag -n $release_count -y $year -m $month -d $day -t $time
 
@@ -46,18 +41,4 @@ do
   done <<< "$tags"
   cd ../../../
   #rm -rf ${REPOS_DATA_DIR}${repo_dir}
-done
-
-
-# Extract all into single csv
-python data_transform_scripts/parse_import_jsons_to_csv.py
-python data_transform_scripts/parse_call_jsons_to_csv.py
-
-#python data_transform_scripts/parse_import_diffs.py
-#python data_transform_scripts/repo_import_diffs_totals.py
-#
-#python data_transform_scripts/parse_call_diffs.py
-#python data_transform_scripts/repo_call_diffs_totals.py
-
-find ./data/imports/ -name "*.READ" -print0 | xargs -0 rm
-find ./data/calls/ -name "*.READ" -print0 | xargs -0 rm
+done < input.csv

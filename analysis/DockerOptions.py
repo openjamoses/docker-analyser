@@ -23,3 +23,17 @@ class ImageOptions:
     def _list_permissions(self):
         return ['chmod', 'chown', 'useradd', 'groupadd', 'adduser', 'usermod', 'addgroup']
 
+    def get_category(self, name):
+        if name in self._list_dependencies():
+            return 'Dependencies'
+        elif name in self._list_filesystem():
+            return 'Filesystem'
+        elif name in self._list_build_execute():
+            return 'Build/Execute'
+        elif name in self._list_environment():
+            return 'Environment'
+        elif name in self._list_permissions():
+            return 'Permissions'
+        else:
+            return 'unknown'
+

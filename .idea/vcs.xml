@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/dcos-commons" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/deep-learning-containers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/gordo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/ngraph" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/tensorflow" vcs="Git" />
   </component>
 </project>
