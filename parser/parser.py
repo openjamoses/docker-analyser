@@ -1,11 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Copyright (c) 2015, 2018, 2019 Red Hat, Inc
-All rights reserved.
-This software may be modified and distributed under the terms
-of the BSD license. See the LICENSE file for details.
-"""
-
 from __future__ import print_function, unicode_literals, absolute_import
 
 import json
@@ -75,7 +68,7 @@ class Args(KeyValues):
     parser_attr = 'args'
 
 
-class DockerfileParser(object):
+class Parser(object):
     def __init__(self, path=None,
                  cache_content=False,
                  env_replace=True,
