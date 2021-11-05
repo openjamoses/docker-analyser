@@ -1,4 +1,7 @@
 import os
+import shutil
+
+
 class FileManagement:
     @staticmethod
     def list_project_docker_files(directory):
@@ -36,3 +39,10 @@ class FileManagement:
             #docker_parser.content = source.read()
             #result.extend(docker_parser.json)
         return dict_file_contents
+    @staticmethod
+    def remove_clone(repo_root):
+        ## Try to remove tree; if failed show an error using try...except on screen
+        try:
+            shutil.rmtree(repo_root)
+        except OSError as e:
+            print ("Error: %s - %s." % (e.filename, e.strerror))

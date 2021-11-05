@@ -36,16 +36,16 @@ class Git:
     def clone_git_repository(url, target_path):
         os.chdir(target_path)
         git_clone_command = "git clone " + url
-        print("Cloning repository from :{} into {}".format(url, target_path))
+        print("git clone {} ...".format(url))
         p = subprocess.Popen(git_clone_command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         output = ""
         for line in p.stdout.readlines():
             output = output + str(line) + '\n'
         retval = p.wait()
         if retval == 0:
-            print("Repository cloned successfully!")
+            print(" Repository cloned successfully!")
         else:
-            print("Error in cloning!")
+            print(" Error in cloning!")
             print(output)
         return retval
 

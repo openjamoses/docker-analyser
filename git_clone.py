@@ -1,13 +1,11 @@
 import pandas as pd
 import os
-import subprocess
 import time
-
 from Git import Git
 from image_analyzer import run_main
+from parser.file_contents import FileManagement
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-#print(ROOT_DIR)
 def main():
     repo_target_path_root = ROOT_DIR+"/outputs/clones"
     df_topic = pd.read_csv(ROOT_DIR + '/input.csv')
@@ -19,6 +17,8 @@ def main():
         os.makedirs(ROOT_DIR+'/outputs/logs')
     if not os.path.exists(ROOT_DIR+'/outputs/clones'):
         os.makedirs(ROOT_DIR+'/outputs/clones')
+    if not os.path.exists(ROOT_DIR+'/outputs/csv'):
+        os.makedirs(ROOT_DIR+'/outputs/csv')
     for index in range(len(Repos)):
         #if not file_name[index] is np.nan:
         repo = Repos[index]
@@ -36,6 +36,9 @@ def main():
             logs = Git.git_fetch_tags_sorts(repo_root, log_tags_path)
             tag_list = []
             tag_date_list = []
+            with open(log_tags_path, "w") as text_file:
+                text_file.write(logs)
+
             for line in logs.split('\n'):
                 if len(line) > 0:
                     split_line = line.strip().split(' ')
@@ -45,22 +48,19 @@ def main():
                     #print (tag, date)
                     tag_list.append(tag)
                     tag_date_list.append(date)
-            print ('  ----total tags found: ', len(tag_list), tag_list)
+            print ('  ----total tags found: ', len(tag_list))
             if len(tag_list) > 0:
                 for tag_id in range((len(tag_list))):
                     tag = tag_list[tag_id]
                     print ('     ---- now analysing: ', tag_id, tag)
                     Git.git_checkout(repo_root, tag)
                     os.chdir(ROOT_DIR)
-                    run_main(repo_root, repo, tag)
+                    run_main(repo_root, repo, tag, save_image=True)
             else:
-                run_main(repo_root, repo, '')
+                run_main(repo_root, repo, '', save_image=True)
+            # Remove the clone project after completing analysis
+            FileManagement.remove_clone(repo_root)
         time.sleep(5)
             #os.rename(repo_path, repo_path2)
-
-
-
-
-
 if __name__ == '__main__':
     main()
