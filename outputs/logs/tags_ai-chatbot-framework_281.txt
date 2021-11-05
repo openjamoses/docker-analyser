@@ -1,0 +1,8 @@
+b'refs/tags/v1.0 Sat Nov 25 22:44:54 2017 +0530\n'
+b'refs/tags/1.9.0 Mon Mar 26 14:58:54 2018 +0530\n'
+b'refs/tags/v1.9.0 Mon Mar 26 14:58:54 2018 +0530\n'
+b'refs/tags/v2.0.0 Sat Apr 21 01:27:18 2018 +0530\n'
+b'refs/tags/v2.1.0 Thu May 10 02:32:45 2018 +0530\n'
+b'refs/tags/v2.2.0 Fri May 25 21:57:08 2018 +0530\n'
+b'refs/tags/v2.2.1 Wed Jul 4 10:28:07 2018 +0530\n'
+b'refs/tags/v2.3.0 Wed Jul 21 11:57:35 2021 +0530\n'

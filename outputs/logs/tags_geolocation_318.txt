@@ -1,0 +1,6 @@
+b'refs/tags/V1.0 Mon Dec 18 09:24:49 2017 +0100\n'
+b'refs/tags/2.0 Thu Feb 28 13:26:24 2019 +0100\n'
+b'refs/tags/V2.1 Mon Aug 12 12:44:05 2019 +0200\n'
+b'refs/tags/2.2 Thu Oct 17 15:00:55 2019 +0200\n'
+b'refs/tags/V2.2 Thu Oct 17 15:10:55 2019 +0200\n'
+b'refs/tags/V2.3 Wed Jan 29 08:43:14 2020 +0100\n'

@@ -1,0 +1,6 @@
+b'refs/tags/0.1.0 Fri Jul 17 20:44:21 2020 -0400\n'
+b'refs/tags/0.2.0 Mon Oct 19 20:55:41 2020 -0400\n'
+b'refs/tags/v0.3.0 Sat Dec 12 10:12:41 2020 -0500\n'
+b'refs/tags/v0.3.1 Thu Dec 17 23:13:27 2020 -0500\n'
+b'refs/tags/0.4.0 Wed Apr 21 12:23:18 2021 -0400\n'
+b'refs/tags/0.4.1 Tue May 4 11:51:52 2021 -0400\n'

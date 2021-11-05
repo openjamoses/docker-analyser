@@ -1,0 +1,2 @@
+b'refs/tags/v0.1 Mon Jun 11 16:58:06 2018 +0900\n'
+b'refs/tags/0.2.0-rc Tue Feb 26 15:03:15 2019 +0900\n'

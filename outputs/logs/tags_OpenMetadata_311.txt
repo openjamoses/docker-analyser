@@ -1,0 +1,8 @@
+b'refs/tags/0.3.0-SNAPSHOT.pre Fri Aug 13 01:13:51 2021 -0700\n'
+b'refs/tags/0.3.0-SNAPSHOT.pre2 Mon Aug 16 11:35:53 2021 +0530\n'
+b'refs/tags/0.3.0-release.pre-3 Mon Aug 16 00:07:12 2021 -0700\n'
+b'refs/tags/0.3.0-release Mon Aug 16 08:34:16 2021 -0700\n'
+b'refs/tags/0.3.1-release Fri Sep 3 09:31:57 2021 +0530\n'
+b'refs/tags/0.4.0-pre Wed Sep 15 15:49:26 2021 -0700\n'
+b'refs/tags/0.4.0 Mon Sep 20 06:55:32 2021 +0000\n'
+b'refs/tags/0.5.0 Mon Oct 18 21:48:24 2021 -0700\n'

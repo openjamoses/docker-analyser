@@ -1,0 +1,6 @@
+b'refs/tags/v0.1.0-rc.1 Sun Sep 15 19:07:29 2019 -0700\n'
+b'refs/tags/v0.2.0-rc.1 Thu Jan 16 17:08:17 2020 +0800\n'
+b'refs/tags/v0.3.0-rc.1 Mon Jun 22 13:51:21 2020 +0800\n'
+b'refs/tags/v0.4.0 Thu Jul 30 22:19:42 2020 +0800\n'
+b'refs/tags/v0.4.1 Fri Aug 14 18:05:04 2020 +0800\n'
+b'refs/tags/v0.4.2 Fri Aug 28 11:18:45 2020 +0800\n'

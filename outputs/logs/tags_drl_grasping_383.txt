@@ -1,0 +1,2 @@
+b'refs/tags/1.0.0 Tue Jun 8 22:14:11 2021 +0200\n'
+b'refs/tags/1.1.0 Wed Oct 13 18:53:08 2021 +0200\n'

@@ -1,0 +1,6 @@
+b'refs/tags/0.0.0 Mon Dec 23 12:49:24 2019 +0900\n'
+b'refs/tags/0.0.1 Tue Jul 14 18:35:46 2020 +0900\n'
+b'refs/tags/0.0.2 Thu Nov 5 12:21:22 2020 +0900\n'
+b'refs/tags/0.0.3 Sat Mar 20 20:40:22 2021 +0900\n'
+b'refs/tags/0.0.4 Wed Jun 16 20:13:21 2021 +0900\n'
+b'refs/tags/0.0.5 Fri Aug 13 16:23:50 2021 +0900\n'

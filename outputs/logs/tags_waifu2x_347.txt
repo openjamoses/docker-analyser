@@ -1,0 +1,6 @@
+b'refs/tags/v0.9 Mon Oct 12 02:08:00 2015 +0900\n'
+b'refs/tags/v0.11 Mon Nov 16 13:44:49 2015 +0900\n'
+b'refs/tags/v0.12 Sun Mar 27 20:20:17 2016 +0900\n'
+b'refs/tags/v0.13 Sat Jul 23 01:22:08 2016 +0900\n'
+b'refs/tags/v0.13.1 Sun Aug 7 02:06:01 2016 +0900\n'
+b'refs/tags/v0.13.2 Fri Nov 9 04:44:27 2018 +0900\n'

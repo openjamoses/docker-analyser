@@ -1,0 +1,6 @@
+b'refs/tags/v0.4.1 Wed Mar 24 15:52:26 2021 -0400\n'
+b'refs/tags/v0.4.2 Wed Mar 31 11:53:58 2021 -0400\n'
+b'refs/tags/v0.4.3 Sat Apr 3 09:40:08 2021 -0400\n'
+b'refs/tags/v0.4.4 Sat Apr 3 22:53:16 2021 -0400\n'
+b'refs/tags/v0.5.0 Wed Apr 21 12:23:20 2021 -0400\n'
+b'refs/tags/v0.6.0 Wed Apr 28 16:46:51 2021 -0400\n'

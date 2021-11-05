@@ -1,0 +1,6 @@
+b'refs/tags/v0.10.0 Wed Oct 28 15:44:19 2020 +0100\n'
+b'refs/tags/v0.11.1 Sat Feb 27 20:28:23 2021 +0100\n'
+b'refs/tags/v1.0 Wed Mar 17 14:56:30 2021 +0100\n'
+b'refs/tags/v1.1.0 Fri Jul 2 12:07:05 2021 +0200\n'
+b'refs/tags/v1.2.0 Wed Sep 8 13:39:32 2021 +0200\n'
+b'refs/tags/v1.3.0 Sat Oct 23 17:59:57 2021 +0200\n'

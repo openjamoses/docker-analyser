@@ -1,0 +1,5 @@
+b'refs/tags/0.1-beta Thu Dec 10 17:51:47 2020 +0000\n'
+b'refs/tags/1.0 Thu Dec 10 17:51:47 2020 +0000\n'
+b'refs/tags/0.2-beta Wed Jan 6 16:54:17 2021 +0100\n'
+b'refs/tags/0.3-beta Fri Feb 5 23:40:07 2021 +0100\n'
+b'refs/tags/2021.09.1 Sun Oct 3 05:12:23 2021 +0100\n'

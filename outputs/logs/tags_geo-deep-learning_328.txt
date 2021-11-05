@@ -1,0 +1,4 @@
+b'refs/tags/v1.0 Wed Mar 27 16:19:43 2019 -0400\n'
+b'refs/tags/1.0.1 Fri Nov 1 07:58:10 2019 -0400\n'
+b'refs/tags/v1.1.0 Wed Nov 6 08:35:30 2019 -0500\n'
+b'refs/tags/v.1.2.0 Fri Oct 9 12:25:06 2020 -0400\n'

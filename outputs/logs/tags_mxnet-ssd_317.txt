@@ -1,0 +1,5 @@
+b'refs/tags/v0.2-beta Wed Nov 16 17:53:08 2016 -0600\n'
+b'refs/tags/v0.2-alpha Thu Mar 16 10:30:34 2017 -0500\n'
+b'refs/tags/v0.5-beta Tue Mar 28 17:19:05 2017 -0500\n'
+b'refs/tags/v0.6 Mon Jun 26 16:21:06 2017 -0700\n'
+b'refs/tags/v0.7-alpha Mon Oct 30 21:47:07 2017 -0700\n'

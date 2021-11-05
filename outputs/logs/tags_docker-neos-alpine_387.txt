@@ -1,0 +1,2 @@
+b'refs/tags/1.0 Wed Sep 6 11:58:29 2017 +0300\n'
+b'refs/tags/2.0 Tue Jan 16 09:49:00 2018 +0300\n'

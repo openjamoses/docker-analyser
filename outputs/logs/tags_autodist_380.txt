@@ -1,0 +1,2 @@
+b'refs/tags/v0.7.0-rc1 Wed Jul 15 21:07:00 2020 -0400\n'
+b'refs/tags/v0.7.0-rc2 Thu Jul 16 00:30:41 2020 -0400\n'

@@ -1,0 +1,6 @@
+b'refs/tags/v20.12.1 Tue Dec 1 18:09:15 2020 +0900\n'
+b'refs/tags/v1.0.0.bibtex Fri Jan 8 16:32:07 2021 +0900\n'
+b'refs/tags/v1.0.0 Fri Jan 8 16:33:21 2021 +0900\n'
+b'refs/tags/v1.0.1 Sun Feb 21 20:30:38 2021 +0900\n'
+b'refs/tags/v1.1.0 Wed Mar 3 16:25:29 2021 +0900\n'
+b'refs/tags/v1.2.0 Mon Aug 23 16:20:57 2021 +0900\n'

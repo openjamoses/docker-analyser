@@ -1,0 +1,6 @@
+b'refs/tags/v0.1.0 Thu Oct 4 17:53:15 2018 -0600\n'
+b'refs/tags/v0.2.0 Wed May 15 13:40:47 2019 -0600\n'
+b'refs/tags/v0.2.1 Thu May 16 15:10:46 2019 -0600\n'
+b'refs/tags/v0.2.2 Thu Jun 20 14:03:51 2019 -0600\n'
+b'refs/tags/v0.3.0 Sat Nov 2 15:07:03 2019 -0600\n'
+b'refs/tags/v0.3.1 Thu Apr 2 13:57:05 2020 -0600\n'

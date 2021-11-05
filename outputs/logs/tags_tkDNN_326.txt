@@ -1,0 +1,4 @@
+b'refs/tags/testData Wed Jul 26 12:23:49 2017 +0200\n'
+b'refs/tags/v0.4 Wed Jan 15 21:48:18 2020 +0100\n'
+b'refs/tags/v0.5 Tue Jun 2 12:43:06 2020 +0200\n'
+b'refs/tags/v0.6 Fri Jul 23 14:37:04 2021 +0200\n'

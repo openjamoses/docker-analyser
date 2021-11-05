@@ -2,13 +2,20 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/DLSCORE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/Paddle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/TeBaQA" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/outputs/clones/dcos-commons" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/outputs/clones/deep-learning-containers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/dl-benchmark" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/outputs/clones/gordo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/modeldb" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/outputs/clones/mycroft-core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/outputs/clones/ngraph" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/outputs/clones/rasa" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/outputs/clones/tensorflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/vectorbt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/outputs/clones/waifu2x" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/outputs/clones/weaviate" vcs="Git" />
   </component>
 </project>

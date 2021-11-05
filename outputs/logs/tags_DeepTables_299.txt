@@ -1,0 +1,7 @@
+b'refs/tags/v0.1.9 Sat Mar 28 23:50:40 2020 +0800\n'
+b'refs/tags/0.1.10 Wed Jul 22 18:10:01 2020 +0800\n'
+b'refs/tags/0.1.11 Wed Aug 12 21:11:30 2020 +0800\n'
+b'refs/tags/0.1.12 Sun Sep 27 19:22:03 2020 +0800\n'
+b'refs/tags/0.1.13 Mon Dec 7 14:45:06 2020 +0800\n'
+b'refs/tags/0.1.14 Tue Mar 9 14:17:01 2021 +0800\n'
+b'refs/tags/0.2.3 Fri Aug 20 11:50:00 2021 +0800\n'
