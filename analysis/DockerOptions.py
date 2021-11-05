@@ -22,3 +22,4 @@ class ImageOptions:
 
     def _list_permissions(self):
         return ['chmod', 'chown', 'useradd', 'groupadd', 'adduser', 'usermod', 'addgroup']
+

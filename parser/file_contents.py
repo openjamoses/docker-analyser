@@ -1,10 +1,8 @@
 import os
 class FileManagement:
-    def __init__(self, directory):
-        self.directory = directory
-
-    def list_project_docker_files(self):
-        directory = os.path.abspath(self.directory)
+    @staticmethod
+    def list_project_docker_files(directory):
+        directory = os.path.abspath(directory)
         list_of_files = list()
         for (dirpath, dirnames, filenames) in os.walk(directory):
             docker_files = list()
@@ -14,15 +12,16 @@ class FileManagement:
             list_of_files.extend(docker_files)
         return list_of_files
 
-    def read_file_source(self,file):
+    @staticmethod
+    def read_file_source(file):
         try:
             source = open(file, "r")
             return source.read()
         except Exception:
             raise SystemExit("The file doesn't exist or it isn't a Dockerfile ...")
 
-    def get_file_contents(self,files):
-        result = list()
+    @staticmethod
+    def get_file_contents(files):
         dict_file_contents = {}
         for file in files:
             try:
